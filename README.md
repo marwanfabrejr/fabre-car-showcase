@@ -36,3 +36,7 @@ Next.js 13 App under Node v16.13.2
 
 [Project](https://fabre-car-showcase.vercel.app/) deployed on Vercel.
 
+### Component Structure:
+
+![Component Structure](/component-structure.png)
+

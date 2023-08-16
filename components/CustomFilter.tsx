@@ -12,7 +12,7 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
   const router = useRouter()
   const handleUpdateParams = (e: { title: string; value: string }) => {
     const newPathname = updateSearchParams(title, e.value.toLocaleLowerCase())
-    router.push(newPathname)
+    router.push(newPathname, { scroll: false })
   }
   return (
     <div className='relative w-fit z-10'>

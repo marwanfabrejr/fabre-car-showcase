@@ -38,5 +38,5 @@ Next.js 13 App under Node v16.13.2
 
 ### Component Structure:
 
-![Component Structure](/component-structure.png)
+![Component Structure](https://github.com/marwanfabrejr/fabre-car-showcase/blob/main/assets/component-structure.png)
 

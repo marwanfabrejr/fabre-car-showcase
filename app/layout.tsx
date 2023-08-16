@@ -5,6 +5,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Fabre Car Hub',
   description: 'Discover the best cars in the world.',
+  icons: {
+    icon: '/icon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -14,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <head>
+        <link rel='icon' href='/logo.png' />
+      </head>
       <body className='relative'>
         <Navbar />
         {children}
